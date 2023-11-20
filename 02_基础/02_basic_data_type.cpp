@@ -1,8 +1,6 @@
 /**
- * @file 01_data_type.cpp
  * @brief 基本数据类型
- * @date 2023/10/27
- * @author caicai
+ * @author cppCodeDream
  */
 
 

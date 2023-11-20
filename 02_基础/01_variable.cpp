@@ -1,8 +1,6 @@
 /**
- * @file 01_variable.cpp
  * @brief 变量
- * @date 2023/11/02
- * @author caicai
+ * @author cppCodeDream
  */
 
 //变量名由字母、数字和下划线组成。

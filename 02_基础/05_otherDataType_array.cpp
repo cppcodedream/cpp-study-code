@@ -1,5 +1,4 @@
 /**
- * @file 05_otherDataType_array.cpp
  * @brief 其他数据类型-数组
  * @author cppCodeDream
  */

@@ -1,5 +1,4 @@
 /**
- * @file 03_math_operator.cpp
  * @brief 算术运算符
  * @author cppCodeDream
  */

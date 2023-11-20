@@ -1,5 +1,4 @@
 /**
- * @file 06_otherDataType_vector.cpp
  * @brief 其他数据类型-vector
  * @author cppCodeDream
  */
