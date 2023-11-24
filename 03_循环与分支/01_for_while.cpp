@@ -119,6 +119,41 @@ void testDoWhile() {
 
 }
 
+/**
+ * break语句
+ * break语句用于立即终止当前所在的循环（for、while、do-while）或switch语句的执行
+ * 当程序执行到break语句时，循环会被终止，程序将直接跳出当前循环或switch语句
+ * break语句通常与条件语句结合使用，用于提前跳出循环，避免不必要的迭代
+ */
+void testBreak() {
+    for (int i = 0; i < 10; i++) {
+        if (i == 5) {
+            break;
+        }
+        std::cout << i << " ";
+    }
+    // 输出结果：0 1 2 3 4
+}
+
+/**
+ * continue语句
+ * continue语句用于跳过当前循环中的剩余代码，并开始下一次循环
+ * 当程序执行到continue语句时，程序将立即停止当前迭代，并开始下一次迭代
+ * continue语句通常与条件语句结合使用，用于跳过特定的迭代
+ */
+void testContinue() {
+    for (int i = 0; i < 10; i++) {
+        if (i == 5) {
+            continue;
+        }
+        std::cout << i << " ";
+    }
+    // 输出结果：0 1 2 3 4 6 7 8 9
+}
+
+// 需要注意的是，break和continue只对最内层的循环起作用。
+// 如果嵌套多层循环，break和continue语句将只会跳出或跳过当前内层循环的执行，而不会影响外层循环
+
 
 int main() {
     testFor();
